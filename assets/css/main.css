@@ -14,6 +14,7 @@ html{
 
 .app{
     position: relative;
+    overflow: hidden;
 }
 
 .header{
@@ -353,17 +354,20 @@ html{
 }
 
 
-.container__img{
-    position: absolute;
-    top: 0;
-    width: 100%;
-    opacity: 0.8;
-    z-index: -2;
+.container{
+    margin-top: -10%;
 }
 
 .container1_title-cha{
     position: relative;
     padding: 196px 75px;
+    z-index: 0;
+}
+
+.container1{
+    background-image: url(/assets/img/parallax-2.jpg);
+    background-position: center;
+    background-size: cover;
 }
 
 .container1_title{
@@ -382,7 +386,7 @@ html{
     content: "";
     position: absolute;
     background-color: #ba71da;
-    width: 176px;
+    width: 180px;
     height: 6px;
     top: 31.5%;
     right: 28%;
@@ -433,14 +437,15 @@ select {
     justify-content: center;
 }
 
-.container1__box-link{
+.container1__link{
+    width: 10%;
     background-color: rgba(0,0,0,0.31);
-    padding: 20px 30px;
+    padding: 20px;
     margin: 0 10px;
-    min-width: 140px;
 }
 
-.container1__box-link:hover{
+
+.container1__link:hover{
     transform: translateY(-10px);
     transition: all 0.2s ease-in-out;
 }
@@ -525,6 +530,7 @@ select {
     background-size: cover;       /*cover kich thước ảnh */  
     padding: 50px 75px;
     margin-top: 60px;
+    z-index: 0;
 }
 
 .container3__wrappe{
@@ -985,6 +991,7 @@ select {
     margin-top: 22px;
     margin-bottom: 35px;
     letter-spacing: 2px;
+    font-weight: 800;
 }
 
 .footer2__right p{
