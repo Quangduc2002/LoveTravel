@@ -793,6 +793,10 @@
         right: 30%;
     }
 
+    .options__ul{
+        padding: 20px 0;
+    }
+
     .container1_title h4 {
         font-size: 12px;
     }
