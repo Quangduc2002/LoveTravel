@@ -218,12 +218,14 @@ html{
     position: fixed;
     padding: 20px;
     top: 0;
-    right: -400px;
+    right: -100%;
     background-color: #fff;
     overflow-y:auto;
     height: 100%;
     transition: right 0.5s ease-out;
     border-left: 1px solid #f1f1f1;
+    display: none;
+
 }
 
 .fa-times-circle{
