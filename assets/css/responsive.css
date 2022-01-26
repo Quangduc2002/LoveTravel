@@ -714,8 +714,8 @@
 
 @media (max-width: 375px){
     .header__wrapper{
-        min-width: 200px !important;
-        padding-left: 0;
+        min-width: 234px !important;
+        padding-left: 0 !important;
     }
     
     .container {
