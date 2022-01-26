@@ -841,6 +841,11 @@
         right: 16%;
         width: 69%;
     }
+
+    .ti-search{
+        right: 26% !important;
+        margin-top: 6px;
+    }
 }
 /* PC medium resolution > */
 @media (max-width: 1024px) {
