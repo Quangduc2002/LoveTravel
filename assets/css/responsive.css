@@ -1068,7 +1068,7 @@
     }
 
     .close{
-        display: block;
+        display: block !important;
     }
 }
 
