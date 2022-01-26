@@ -1,13 +1,10 @@
 function menu(){
-    document.getElementById("menu1").style.right = "0px";
-    document.getElementById("menu1").style.display = "block";
+    document.getElementById("menu1").style.right = "0%";
 
 }
 
 function closes(){
     document.getElementById("menu1").style.right = "-100%";
-    document.getElementById("menu1").style.display = "none";
-
 }
 
 $(document).ready(function(){
