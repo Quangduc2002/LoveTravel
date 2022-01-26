@@ -643,9 +643,18 @@
         top: 66%;
     }
 
+    .container2__column1 h2{
+        font-size: 46px;
+    }
+
+    .container2__column1 p{
+        font-size: 18px;
+    }
+
     .container2__column1 h2::after{
         left: 0;
         top: 86%;
+        width: 190px;
     }
 
     .slick-slider{
@@ -661,6 +670,7 @@
 
     .container2__column2-time{
         border-bottom: 1px solid #fff;
+        max-width: 100% !important;
     }
 
     .slick-dots{
