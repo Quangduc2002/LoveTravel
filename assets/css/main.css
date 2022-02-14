@@ -387,6 +387,14 @@ html{
     background-size: cover;
 }
 
+.container1__index2{
+    background-image: url(../img/parallax-search-2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+
 .container1_title-Sport{
     margin-top: 200px;
     margin-bottom: 0 !important;
@@ -841,13 +849,20 @@ select {
     width: 100%;
     justify-content: space-between;
     margin-top: 40px;
+    flex-wrap: wrap;
 }
 
 .container4__con{
     width: 370px;
     border: 1px solid #f1f1f1;
     border-radius: 4px;
+    margin-bottom: 30px;
 }
+
+/* .tab-pane.active{
+    display: none;
+} */
+
 
 .container4__con-img{
     position: relative;
@@ -1093,4 +1108,157 @@ select {
         transform: scale(0.7);
         opacity: 0.2;
     }
+}
+
+/* index2 */
+.index2{
+    padding-bottom: 70px !important;
+}
+.container1_title-index2{
+    color: #fff;
+    line-height: 2;
+}
+
+.container1_title-index2 p{
+    letter-spacing: 2px;
+}
+
+.container1__index2-after::after{
+    content: "";
+    position: absolute;
+    height: 5px;
+    left: 266px;
+    width: 120px;
+    top: 43%;
+    background: #e27557;
+    z-index: -1;
+}
+
+.container1__index2-con{
+    background: #fff;
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    margin-bottom: 60px;
+}
+
+.container1__index2-con1,
+.container1__index2-con2,
+.container1__index2-con3{
+    flex-basis: 30%;
+    line-height: 2;
+}
+
+.container1__index2-h5{
+    margin-bottom: 10px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #555;
+}
+
+.price{
+    display: flex;
+    color: #555;
+}
+
+.container1__index2-select{
+    position: relative;
+}
+
+.container1__index2-select select,
+.container1__index2-date{
+    background: #f9f9f9;
+    border: 1px solid #f1f1f1;
+    margin-bottom: inherit;
+}
+
+.container1__search img {
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    right: 6%;
+    top: 10px;
+}
+
+.container1__index2-date{
+    outline: none;
+    width: 100%;
+    padding: 10px 20px ;
+    border-radius: 30px;
+    letter-spacing: 1px;
+    color: #a3a3a3;
+    font-size: 16px;
+}
+
+.index2__con3-1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.index2__con3-2{
+    display: flex;
+    align-items: center;
+}
+
+.index2__con3-2 input{
+    margin-right: 10px;
+}
+
+.index2__con3-2 p{
+    color: #a3a3a3;
+}
+
+.container1__index2-con4{
+    display: flex;
+}
+
+.index2__con4{
+    position: relative;
+    margin-left: 30px;
+}
+
+.index2__con4-price{
+    display: flex;
+    color: #fff;
+}
+
+.index2__con4-price p{
+    margin-right: 10px;
+}
+
+.index2__con4-ul{
+    background-color: #555;
+    width: 180px;
+    margin-top: 15px;
+    display: none;
+    position: absolute;
+    cursor: pointer;
+}
+
+.index2__con4 li{
+    padding: 15px 20px;
+    letter-spacing: 2px;
+    font-size: 14px;
+    color: #9a9a9a;
+    text-transform: uppercase;
+}
+
+.index2__con4:hover .index2__con4-ul{
+    display: block;
+}
+
+.index2__con4::before{
+    content: "";
+    position: absolute;
+    width: 70px;
+    height: 20px;
+    top: 70%;
+}
+
+.index2__con4-li1{
+    background-color: #5d5d5d;
+}
+
+.BOOKNOW__index2{
+    background-color: #f76570;
 }

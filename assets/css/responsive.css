@@ -232,6 +232,273 @@
 
 }
 
+/* PC medium resolution > */
+@media (max-width: 1024px) {
+    .row {
+        margin-left: -12px;
+        margin-right: -12px;
+    }
+
+    .row.sm-gutter {
+        margin-left: -5px;
+        margin-right: -5px;
+    }
+
+    .col {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .row.sm-gutter .col {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .l-0 {
+        display: none;
+    }
+
+    .l-1,
+    .l-2,
+    .l-2-4,
+    .l-3,
+    .l-4,
+    .l-5,
+    .l-6,
+    .l-7,
+    .l-8,
+    .l-9,
+    .l-10,
+    .l-11,
+    .l-12 {
+        display: block;
+    }
+
+    .l-1 {
+        flex: 0 0 8.33333%;
+        max-width: 8.33333%;
+    }
+
+    .l-2 {
+        flex: 0 0 16.66667%;
+        max-width: 16.66667%;
+    }
+
+    .l-2-4 {
+        flex: 0 0 20%;
+        max-width: 20%;
+    }
+
+    .l-3 {
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+
+    .l-4 {
+        flex: 0 0 33.33333%;
+        max-width: 33.33333%;
+    }
+
+    .l-5 {
+        flex: 0 0 41.66667%;
+        max-width: 41.66667%;
+    }
+
+    .l-6 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    .l-7 {
+        flex: 0 0 58.33333%;
+        max-width: 58.33333%;
+    }
+
+    .l-8 {
+        flex: 0 0 66.66667%;
+        max-width: 66.66667%;
+    }
+
+    .l-9 {
+        flex: 0 0 75%;
+        max-width: 75%;
+    }
+
+    .l-10 {
+        flex: 0 0 83.33333%;
+        max-width: 83.33333%;
+    }
+
+    .l-11 {
+        flex: 0 0 91.66667%;
+        max-width: 91.66667%;
+    }
+
+    .l-12 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .l-o-1 {
+        margin-left: 8.33333%;
+    }
+
+    .l-o-2 {
+        margin-left: 16.66667%;
+    }
+
+    .l-o-3 {
+        margin-left: 25%;
+    }
+
+    .l-o-4 {
+        margin-left: 33.33333%;
+    }
+
+    .l-o-5 {
+        margin-left: 41.66667%;
+    }
+
+    .l-o-6 {
+        margin-left: 50%;
+    }
+
+    .l-o-7 {
+        margin-left: 58.33333%;
+    }
+
+    .l-o-8 {
+        margin-left: 66.66667%;
+    }
+
+    .l-o-9 {
+        margin-left: 75%;
+    }
+
+    .l-o-10 {
+        margin-left: 83.33333%;
+    }
+
+    .l-o-11 {
+        margin-left: 91.66667%;
+    }
+
+    .header{
+        padding: 20px 50px;
+    }
+
+    .header__wrapper{
+        position: fixed;
+        height: 100%;
+        min-width: 300px;
+        overflow-y: auto;
+        background-color: rgb(85, 85, 85);
+        top: 0;
+        right: 0;
+        padding: 20px;
+        right: -100%;
+        transition: right 0.5s linear;
+    }
+
+    .options{
+        display: none;
+    }
+
+    .header__img{
+        display: block;
+        text-align: center;
+    }
+
+    .bars{
+        display: block !important;
+    }
+
+    .header__wrapper,
+    .header__wrapper-ul{
+        display: block;
+    }
+
+    .menu__after::after,
+    .menu__li-after::after,
+    .ABOUT__after::after{
+        content: "";
+        background: none;
+    }
+
+    .header__wrapper-li{
+        margin-bottom: 30px;
+    }
+
+    .menu,
+    .menu__con{
+        position: relative;
+        display: block;
+        box-shadow: none;
+        background: none;
+    }
+    
+    .menu__con{
+        left: 0;
+        padding: 0;
+    }
+
+    .Tour__Package,
+    .AboutUs,
+    .Contact,
+    .NEWS1,
+    .NEWS{
+        padding-bottom: 0;
+    }
+
+    .fa-caret-right{
+        display: none !important;
+    }
+
+    .menu__li {
+        border-bottom: none;
+        padding-left: 35px;
+    }
+
+    .BOOKNOW {
+        background:none;
+        border-radius: 0;
+        padding: 0;
+        margin-left: 0;
+        margin-bottom: 20px;
+    }
+
+    .close{
+        display: block !important;
+    }
+
+    .container1__index2-con{
+        display: block;
+    }
+
+    .container1__index2-con1,
+    .container1__index2-con2{
+        margin-bottom: 20px;
+    }
+
+    .container1__search img {
+        right: 3%;
+    }
+
+    .container1__index2-after::after {
+        top: 31.5%;
+        left: 214px;
+    }
+
+    .header__index2{
+        background-color: #555;
+    }
+
+    .index2{
+        padding-left: 24px !important;
+        padding-right: 24px !important;
+    }
+
+}
 
 
 /* >= Tablet */
@@ -392,6 +659,10 @@
 
     .footer2{
         display: block;
+    }
+
+    .container1__search img {
+        right: 5%;
     }
 }
 
@@ -710,6 +981,20 @@
         content: "";
     }
 
+
+    .container1_title-index2{
+        line-height: 1;
+        margin-bottom: 40px;
+    }
+
+    .container1_title-index2 p {
+        line-height: 2;
+    }
+
+    .container1__index2-after::after{
+        top: 30%;
+    }
+
 }
 
 @media (max-width: 375px){
@@ -780,8 +1065,11 @@
     .footer2__left-icon i{
         margin-right: 0px;
     }
-}
 
+    .container1__index2-after::after{
+        top: 29.5%;
+    }
+}
 
 @media (max-width:320px){
     .container1_title h1{
@@ -831,246 +1119,22 @@
         right: 16%;
         width: 69%;
     }
-}
-/* PC medium resolution > */
-@media (max-width: 1024px) {
-    .row {
-        margin-left: -12px;
-        margin-right: -12px;
+
+    .container1__index2-after{
+        font-size: 28px;
     }
 
-    .row.sm-gutter {
-        margin-left: -5px;
-        margin-right: -5px;
+    .container1__index2-after::after{
+        width: 110px;
+        top: 28%;
+        left: 190px;
     }
 
-    .col {
-        padding-left: 12px;
-        padding-right: 12px;
-    }
-
-    .row.sm-gutter .col {
-        padding-left: 5px;
-        padding-right: 5px;
-    }
-
-    .l-0 {
-        display: none;
-    }
-
-    .l-1,
-    .l-2,
-    .l-2-4,
-    .l-3,
-    .l-4,
-    .l-5,
-    .l-6,
-    .l-7,
-    .l-8,
-    .l-9,
-    .l-10,
-    .l-11,
-    .l-12 {
-        display: block;
-    }
-
-    .l-1 {
-        flex: 0 0 8.33333%;
-        max-width: 8.33333%;
-    }
-
-    .l-2 {
-        flex: 0 0 16.66667%;
-        max-width: 16.66667%;
-    }
-
-    .l-2-4 {
-        flex: 0 0 20%;
-        max-width: 20%;
-    }
-
-    .l-3 {
-        flex: 0 0 25%;
-        max-width: 25%;
-    }
-
-    .l-4 {
-        flex: 0 0 33.33333%;
-        max-width: 33.33333%;
-    }
-
-    .l-5 {
-        flex: 0 0 41.66667%;
-        max-width: 41.66667%;
-    }
-
-    .l-6 {
-        flex: 0 0 50%;
-        max-width: 50%;
-    }
-
-    .l-7 {
-        flex: 0 0 58.33333%;
-        max-width: 58.33333%;
-    }
-
-    .l-8 {
-        flex: 0 0 66.66667%;
-        max-width: 66.66667%;
-    }
-
-    .l-9 {
-        flex: 0 0 75%;
-        max-width: 75%;
-    }
-
-    .l-10 {
-        flex: 0 0 83.33333%;
-        max-width: 83.33333%;
-    }
-
-    .l-11 {
-        flex: 0 0 91.66667%;
-        max-width: 91.66667%;
-    }
-
-    .l-12 {
-        flex: 0 0 100%;
-        max-width: 100%;
-    }
-
-    .l-o-1 {
-        margin-left: 8.33333%;
-    }
-
-    .l-o-2 {
-        margin-left: 16.66667%;
-    }
-
-    .l-o-3 {
-        margin-left: 25%;
-    }
-
-    .l-o-4 {
-        margin-left: 33.33333%;
-    }
-
-    .l-o-5 {
-        margin-left: 41.66667%;
-    }
-
-    .l-o-6 {
-        margin-left: 50%;
-    }
-
-    .l-o-7 {
-        margin-left: 58.33333%;
-    }
-
-    .l-o-8 {
-        margin-left: 66.66667%;
-    }
-
-    .l-o-9 {
-        margin-left: 75%;
-    }
-
-    .l-o-10 {
-        margin-left: 83.33333%;
-    }
-
-    .l-o-11 {
-        margin-left: 91.66667%;
-    }
-
-    .header{
-        padding: 20px 50px;
-    }
-
-    .header__wrapper{
-        position: fixed;
-        height: 100%;
-        min-width: 300px;
-        overflow-y: auto;
-        background-color: rgb(85, 85, 85);
-        top: 0;
-        right: 0;
-        padding: 20px;
-        right: -100%;
-        transition: right 0.5s linear;
-    }
-
-    .options{
-        display: none;
-    }
-
-    .header__img{
-        display: block;
-        text-align: center;
-    }
-
-    .bars{
-        display: block !important;
-    }
-
-    .header__wrapper,
-    .header__wrapper-ul{
-        display: block;
-    }
-
-    .menu__after::after,
-    .menu__li-after::after,
-    .ABOUT__after::after{
-        content: "";
-        background: none;
-    }
-
-    .header__wrapper-li{
-        margin-bottom: 30px;
-    }
-
-    .menu,
-    .menu__con{
-        position: relative;
-        display: block;
-        box-shadow: none;
-        background: none;
-    }
-    
-    .menu__con{
-        left: 0;
-        padding: 0;
-    }
-
-    .Tour__Package,
-    .AboutUs,
-    .Contact,
-    .NEWS1,
-    .NEWS{
-        padding-bottom: 0;
-    }
-
-    .fa-caret-right{
-        display: none !important;
-    }
-
-    .menu__li {
-        border-bottom: none;
-        padding-left: 35px;
-    }
-
-    .BOOKNOW {
-        background:none;
-        border-radius: 0;
-        padding: 0;
-        margin-left: 0;
-        margin-bottom: 20px;
-    }
-
-    .close{
-        display: block !important;
+    .index2__con4-name{
+        width: 150px;
     }
 }
+
 
 
 
