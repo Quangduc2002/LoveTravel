@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="./assets/css/responsive.css">
     <link rel="stylesheet" href="./assets/font/fontawesome-free-5.15.4-web/fontawesome-free-5.15.4-web/css/all.min.css">
     <link rel="stylesheet" href="./assets/font/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="./assets/font/fontawesome-free-6.0.0-web/fontawesome-free-6.0.0-web/css/all.min.css">
     <!-- link slick slide -->
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -371,7 +372,7 @@
                                 </div>
 
                                 <div class="index2__con3-2">
-                                    <input type="checkbox" name="" id="">
+                                    <input class="Input__checkbox js-input" id="inputjs" type="checkbox" value="1">
                                     <p> See only promotions</p>
                                 </div>
                             </div>
@@ -405,7 +406,7 @@
                 </div>
 
                 <div class="container2 l-11 c-10">
-                    <div class="container4 l-12 c-12">
+                    <div class="container4 l-12 c-12 js-location">
                         <div class="container4__con tab-pane active">
                             <div class="container4__con-img">
                                 <img src="./assets/img/img16.jpg" alt="">
@@ -684,6 +685,11 @@
                             </div>
                         </div>
                     </div>
+
+                    <div class="container4-1 Search js-Results">
+                        <i class="fa-solid fa-exclamation"></i>
+                        <h3>No results for this search</h3>
+                    </div>
                 </div>
             </div>
         </div>
@@ -823,6 +829,24 @@
 
         bars.addEventListener('click', showMenu)
         modalClose.addEventListener('click', hideMenu)
+    </script>
+
+    <script>
+        const Location = document.querySelector('.js-location')
+        const Results = document.querySelector('.js-Results')
+
+
+        document.getElementById("inputjs").onclick = function(){
+            if(this.checked ){
+                Location.classList.add('open1');
+                Results.classList.add('open1');
+            }
+            else{
+                Location.classList.remove('open1');
+                Results.classList.remove('open1');
+            }
+        }
+
     </script>
 
     <!-- javascrip tăng giảm giá -->
