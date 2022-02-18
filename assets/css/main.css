@@ -1365,6 +1365,7 @@ select {
     font-size: 22px;
     color: #f9f9f9;
     margin: 0 10px;
+    cursor: pointer;
 }
 
 .js-grid,
