@@ -854,10 +854,13 @@ select {
 
 }
 
-.container4.open1{
-    display: none;  
+.container4.open1,
+.js-container1.open1{
+    display: none !important;  
     animation: checkbox 1s linear;    
 }
+
+
 
 .Search.open1{
     display: flex;
@@ -880,9 +883,52 @@ select {
     margin-bottom: 30px;
 }
 
-/* .tab-pane.active{
+.container4__con.tab-pane{
+    width: 49%;
+    position: relative;
+    display: flex;
+    height: 292px;
+}
+
+.container4__con-img.tab-pane{
+    width: 40%;
+}
+
+.container4__title1.tab-pane,
+.container4__img.tab-pane,
+.js-container.open{
     display: none;
-} */
+}
+
+.container4-img.tab-pane{
+    height: 100%;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 4px;
+}
+
+.container4__options.tab-pane,
+.container4__Content1-title.tab-pane {
+    border-bottom: none;
+    padding: 0;
+}
+
+.container4__Content1-title.tab-pane {
+    position: absolute;
+    bottom: 20px;
+    right: 30px;
+}
+
+.container4__Content1.tab-pane{
+    padding: 30px;
+}
+
+.js-container1{
+    display: none;
+}
+
+.js-container1.open{
+    display: flex;
+}
 
 
 .container4__con-img{
@@ -1256,6 +1302,12 @@ select {
 
 .container1__index2-con4{
     display: flex;
+    justify-content: space-between;
+}
+
+.index2__con4-char{
+    display: flex;
+    align-items: center;
 }
 
 .index2__con4{
@@ -1308,3 +1360,20 @@ select {
 .BOOKNOW__index2{
     background-color: #f76570;
 }
+
+.index2__con6 i {
+    font-size: 22px;
+    color: #f9f9f9;
+    margin: 0 10px;
+}
+
+.js-grid,
+.js-list.open{
+    opacity: 1;
+}
+
+.js-list,
+.js-grid.open{
+    opacity: 0.6;
+}
+
