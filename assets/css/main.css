@@ -76,6 +76,11 @@ html{
     cursor: pointer;
 }
 
+.fa-bars:hover{
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+}
+
 .menu,
 .menu__con{
     position: absolute;
