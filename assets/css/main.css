@@ -1374,6 +1374,11 @@ select {
     cursor: pointer;
 }
 
+.index2__con6 i:hover{
+    opacity: 1;
+    transition: all 0.3s ease-in-out;
+}
+
 .js-grid,
 .js-list.open{
     opacity: 1;
