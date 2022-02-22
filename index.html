@@ -14,7 +14,6 @@
     <!-- link slick slide -->
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="./assets/js/main.js"></script>
 </head>
 
 <body>
@@ -954,42 +953,16 @@
             </a>
         </div>
     </div>
-
 </body>
-<!-- click vào icon hiện ra menu bên phải -->
-<script>
-    const bars = document.querySelector('.js-bars')
-    const modal = document.querySelector('.js-options')
-    const modalClose = document.querySelector('.js-close')
 
-    function showMenu() {
-        modal.classList.add('open');
-    }
 
-    function hideMenu() {
-        modal.classList.remove('open');
-    }
-
-    bars.addEventListener('click', showMenu)
-    modalClose.addEventListener('click', hideMenu)
-</script>
 
 <!-- link jquery -->
 <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
     crossorigin="anonymous"></script>
+<script src="./assets/js/main.js"></script>
 
-<script>
-    $(document).ready(function () {
-        $(window).scroll(function () {
-            if ($(this).scrollTop() != 0) {
-                $('.icon__top').fadeIn();
-            } else {
-                $('.icon__top').fadeOut();
 
-            }
-        })
-    });
-</script>
 
 <!-- html-slide-js de liên kết slick slide -->
 <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
