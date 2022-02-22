@@ -1,3 +1,12 @@
+function menu1(){
+    document.getElementById("menu2").style.right = "0px";
+}
+
+function closes1(){
+    document.getElementById("menu2").style.right = "-400px";
+}
+
+
 const bars = document.querySelector('.js-bars')
 const modal = document.querySelector('.js-options')
 const modalClose = document.querySelector('.js-close')
