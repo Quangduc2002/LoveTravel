@@ -76,7 +76,6 @@ const slider1 = document.querySelector(".range");
 const value = document.querySelector(".rangeValue");
 
 value.textContent = slider1.value;
-
 slider1.oninput = function () {
     value.textContent = this.value;
 }

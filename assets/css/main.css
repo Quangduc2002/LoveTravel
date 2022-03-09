@@ -1293,6 +1293,22 @@ select {
     justify-content: space-between;
 }
 
+.range{
+    appearance: none;
+    background: #f1f1f1;
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+.range::-webkit-slider-thumb{
+    appearance: none;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    background-color: #555;
+    box-shadow: -407px 0 0 400px #14b9d5;
+}
+
 .index2__con3-2{
     display: flex;
     align-items: center;
